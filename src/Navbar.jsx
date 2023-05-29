@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
      <section className="navbar-bg">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light">
        <div class="container">
         <a class="navbar-brand" href="#">UPay</a>
          <button 
@@ -41,10 +41,10 @@ const Navbar = () => {
       </ul>
 
       <form class="d-flex">
-        <button class="btn btn-outline-success" type="submit">
+        <button class="btn btn-style" type="submit">
          Sign Up
         </button>
-        <button class="btn btn-outline-success" type="submit">
+        <button class="btn btn-style btn-style-border" type="submit">
           Log in
         </button>
       </form>
